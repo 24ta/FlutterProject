@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>659874070577-9t8pobjthteefhn934n3hjf8pjtpt5q0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.659874070577-9t8pobjthteefhn934n3hjf8pjtpt5q0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyApDxHL_fWu3wYdEbddY934g38rdCrzqto</string>
+	<key>GCM_SENDER_ID</key>
+	<string>659874070577</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.nekotap</string>
+	<key>PROJECT_ID</key>
+	<string>eiyo-kanri</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eiyo-kanri.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:659874070577:ios:a83b17d2078ae95fbb1510</string>
+</dict>
+</plist>

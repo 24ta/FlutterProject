@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659874070577",
+    "project_id": "eiyo-kanri",
+    "storage_bucket": "eiyo-kanri.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659874070577:android:25fab0cc79ea4feabb1510",
+        "android_client_info": {
+          "package_name": "com.example.nekotap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659874070577-dsr80pgvg1nv7ntir4h32oaroh3prpq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVUuqidoL0H7rz6l8455hLhISeOw9TPUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659874070577-dsr80pgvg1nv7ntir4h32oaroh3prpq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
