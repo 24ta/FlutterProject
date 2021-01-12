@@ -80,7 +80,7 @@ class Top extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                     ),
                     onPressed: () {
-                      Navigator.of(context).pushNamed('/record');
+                      Navigator.of(context).pushNamed('/data');
                     },
                     child: const Text('データ',
                         style: TextStyle(
