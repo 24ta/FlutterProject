@@ -63,7 +63,7 @@ class Top extends StatelessWidget {
                   color: Colors.yellow[800],
                   shape: const StadiumBorder(),
                   onPressed: () {
-                    Navigator.of(context).pushNamed('/tap');
+                    Navigator.of(context).pushNamed('/nekotap');
                   },
                   child: const Text('スタート！',
                       style: TextStyle(

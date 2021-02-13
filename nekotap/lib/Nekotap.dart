@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'AppBackground.dart';
 
-class Tap extends StatefulWidget {
+class Nekotap extends StatefulWidget {
   @override
-  _TapState createState() {
-    return _TapState();
+  _NekotapState createState() {
+    return _NekotapState();
   }
 }
 
-class _TapState extends State<Tap> {
+class _NekotapState extends State<Nekotap> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,16 +53,35 @@ class _TapState extends State<Tap> {
         decoration: BoxDecoration(
           border: Border.all(color: Colors.grey),
           borderRadius: BorderRadius.circular(5.0),
+            image: DecorationImage(
+                image: AssetImage('assets/food.png'),
+                fit: BoxFit.scaleDown)
         ),
-        child: ListTile(
-          title: Text(record.name,
-            style: TextStyle(fontSize: 40),),
-          trailing: Text(record.tap_count.toString(),
-              style: TextStyle(fontSize: 40)),
-          onTap: () => record.reference
-              .updateData({'tap_count': FieldValue.increment(1)}),
-        ),
-      ),
+        // child:RaisedButton(
+        //     color: Colors.blue[200],
+        //     shape: const StadiumBorder(),
+        //     onPressed: () => record.reference.updateData({'tap_count': FieldValue.increment(1)}),
+        //     child: Text("\n\n" + record.name + " " + record.tap_count.toString() + "\n\n",
+        //         style: TextStyle(
+        //             fontSize: 60,)
+        //     ),
+        child:RaisedButton(
+          color: Colors.blue[200],
+          shape: const StadiumBorder(),
+          onPressed: () => record.reference.updateData({'tap_count': FieldValue.increment(1)}),
+          child: Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/food.png'),
+                fit: BoxFit.scaleDown
+              )
+            ),
+            child: Text("\n\n" + record.name + " " + record.tap_count.toString() + "\n\n",
+                style: TextStyle(
+                  fontSize: 60,)
+            ),
+          )
+      ),)
     );
   }
 }
